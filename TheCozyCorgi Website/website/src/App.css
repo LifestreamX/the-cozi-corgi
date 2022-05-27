@@ -69,3 +69,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.estate-wrapper {
+  height: 90vh;
+  width: 100vw;
+}
+
+.estate-images {
+  width: 100% !important;
+  height: 1100px;
+}
