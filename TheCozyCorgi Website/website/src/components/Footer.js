@@ -6,43 +6,8 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          subscribe to receive latest discounts and more!
-        </p>
-        <p className='footer-subscription-text'>
-          you can cancel subscription at any time.
-        </p>
-        <div className='input-areas'>
-          <form action=''>
-            <input
-              type='email'
-              name='email'
-              placeholder='Enter your email...'
-              className='footer-input'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section>
-
       <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>About us</h2>
-            <Link to='/'>Corgis</Link>
-            <Link to='/'>Estate</Link>
-            <Link to='/'> Staff</Link>
-            <Link to='/'>Policy</Link>
-          </div>
-          <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
-        </div>
+        
       </div>
 
       <section className='social-media'>
@@ -63,46 +28,42 @@ const Footer = () => {
               <i className='fab fa-instagram'></i>
               
             </a> */}
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href='https://facebook.com'
+              rel='noreferrer'
               target='_blank'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link instagram'
-              to='/'
+              href='https://instagram.com'
+              rel='noreferrer'
               target='_blank'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link youtube'
-              to='/'
+              href='https://youtube.com'
+              rel='noreferrer'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link twitter'
-              to='/'
+              href='https://twitter.com'
+              rel='noreferrer'
               target='_blank'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

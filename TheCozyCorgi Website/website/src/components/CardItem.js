@@ -5,14 +5,14 @@ const CardItem = ({ path, label, src, text }) => {
   return (
     <>
       <li className='cards-item'>
-        <Link className='cards-item-link' to={path}>
+        <div className='cards-item-link' to={path}>
           <figure className='cards-item-pic-wrap' data-category={label}>
             <img src={src} alt='Corgi' className='cards-item-img' />
           </figure>
           <div className='cards-item-info'>
             <h5 className='cards-item-text'>{text}</h5>
           </div>
-        </Link>
+        </div>
       </li>
     </>
   );
