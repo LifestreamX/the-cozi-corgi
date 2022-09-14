@@ -71,11 +71,43 @@
 }
 
 .estate-wrapper {
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
 }
 
 .estate-images {
+  margin-top: 50px;
   width: 100% !important;
-  height: 1100px;
+  height: 75vh;
+  object-fit: contain !important;
+}
+
+/* Modal */
+@media screen and (max-width: 1600px) {
+  .youtube-modal {
+    width: 800;
+  }
+}
+
+/* Signup */
+@media screen and (max-width: 768px) {
+  .sign-up,
+  .sign-in {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+
+  .sign-up {
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color: #fff; */
+    /* font-size: 100px; */
+  }
 }
