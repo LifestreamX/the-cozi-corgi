@@ -43,7 +43,7 @@ const Nav = () => {
                 Home
               </Link>
             </li>
-           
+{/*            
             <li className='nav-item'>
               <Link
                 to='/estate'
@@ -52,7 +52,7 @@ const Nav = () => {
               >
                 Estate
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link

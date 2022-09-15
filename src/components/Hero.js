@@ -18,8 +18,9 @@ const Hero = () => {
         >
           GET STARTED
         </Button>
-
-        <BasicModal className='modal button2' />
+      
+          <BasicModal className='modal button2' />
+        
       </div>
     </div>
   );

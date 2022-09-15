@@ -82,6 +82,11 @@
   object-fit: contain !important;
 }
 
+.button2 {
+  width: 180px !important;
+  padding: 15px !important;
+}
+
 /* Modal */
 @media screen and (max-width: 1600px) {
   .youtube-modal {
@@ -99,8 +104,6 @@
     align-items: center;
     justify-content: center;
   }
-
- 
 
   .sign-up {
     background-color: #fff;
