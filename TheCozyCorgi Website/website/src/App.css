@@ -50,6 +50,15 @@
   /* font-size: 100px; */
 }
 
+.form-container {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.form-img {
+  object-fit: contain;
+}
+
 .video-wrapper {
   background: #1d4350; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -70,12 +79,43 @@
   align-items: center;
 }
 
-.estate-wrapper {
-  height: 90vh;
-  width: 100vw;
+.button2 {
+  width: 180px !important;
+  padding: 15px !important;
 }
 
-.estate-images {
-  width: 100% !important;
-  height: 1100px;
+/* Modal */
+@media screen and (max-width: 1600px) {
+  .youtube-modal {
+    width: 800;
+  }
+}
+
+
+
+
+
+
+
+/* Signup */
+@media screen and (max-width: 768px) {
+  .sign-up,
+  .sign-in {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sign-up {
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* color: #fff; */
+    /* font-size: 100px; */
+  }
 }

@@ -43,16 +43,7 @@ const Nav = () => {
                 Home
               </Link>
             </li>
-           
-            <li className='nav-item'>
-              <Link
-                to='/estate'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Estate
-              </Link>
-            </li>
+   
 
             <li>
               <Link
