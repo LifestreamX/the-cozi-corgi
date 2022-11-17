@@ -2,9 +2,9 @@
 
 Corgi Land
 
-## Demo link: https://thecozicorgi.tyler-allen.com/
 
-<!-- Access my site at [google.com](https://google.com) -->
+
+ Access my site at https://thecozicorgi.tyler-allen.com/
 
 ## About The App
 
