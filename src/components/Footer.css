@@ -169,3 +169,12 @@
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  .footer-container {
+    padding: 0rem 0 2rem 0;
+  }
+}
+
+
+

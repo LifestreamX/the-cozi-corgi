@@ -98,8 +98,7 @@
 @media screen and (max-width: 768px) {
   .sign-up,
   .sign-in {
-    display: flex;
-    height: 100vh;
+    height: 50%;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -110,7 +109,18 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* color: #fff; */
-    /* font-size: 100px; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form-container {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .form-signup-title {
+    /* font-size: 1rem !important; */
+    position: relative;
+    bottom: 30px;
   }
 }

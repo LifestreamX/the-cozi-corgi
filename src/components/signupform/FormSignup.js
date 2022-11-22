@@ -12,7 +12,7 @@ const FormSignup = ({ submitForm }) => {
   return (
     <div className='form-content-right'>
       <form action='' className='form' onSubmit={handleSubmit}>
-        <h1>Sign up to start booking your stay with us!</h1>
+        <h1 className='form-signup-title'>Sign up to start booking your stay with us!</h1>
         <div className='form-inputs'>
           <label htmlFor='username' className='form-label'>
             Username
