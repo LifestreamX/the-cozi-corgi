@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  
 }
 
 .navbar-container {
@@ -104,7 +105,7 @@
 
   .nav-links {
     text-align: center;
-
+    
     padding: 2rem;
     width: 100%;
     display: table;
@@ -157,15 +158,5 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .navbar-logo {
-    color: #fff;
-    margin-left: -25px;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
   }
 }

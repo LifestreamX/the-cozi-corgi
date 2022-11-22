@@ -12,6 +12,13 @@
   width: 100%;
 }
 
+
+@media screen and (max-width: 960px) {
+  .btn {
+    display: none;
+  }
+}
+
 .btn--primary {
   background-color: var(--primary);
   color: #242424;
