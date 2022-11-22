@@ -25,7 +25,7 @@ const Cards = () => {
           <ul className='cards-item'>
             <CardItem
               src='assets/images/room1.jpg'
-              text='wake up next to our beautiful cogis that will not bark'
+              text='wake up next to our beautiful corgis that will not bark'
               label='Rooms'
               path='/estate'
             />
@@ -38,7 +38,7 @@ const Cards = () => {
             <CardItem
               src='assets/images/house1.jpg'
               text='Stay in our beautiful estate looking over the ocean'
-              label='Luxary'
+              label='Luxury'
               path='/estate'
             />
           </ul>
