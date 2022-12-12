@@ -1,6 +1,6 @@
 # Project Title
 
-Corgi Land
+The Cozi Corgi
 
 
 
